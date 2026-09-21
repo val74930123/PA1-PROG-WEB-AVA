@@ -1,0 +1,22 @@
+<section>
+  <h2>Solicitudes registradas</h2>
+
+  <p>Total de solicitudes: {{ solicitudes.length }}</p>
+
+  <div *ngIf="solicitudes.length > 0">
+    <app-solicitud-card
+      *ngFor="let solicitud of solicitudes"
+      [solicitud]="solicitud"
+      (verDetalle)="seleccionarSolicitud($event)">
+    </app-solicitud-card>
+  </div>
+
+  <p *ngIf="solicitudes.length === 0">
+    No existen solicitudes registradas.
+  </p>
+
+  <div *ngIf="solicitudSeleccionada">
+    <h3>Solicitud seleccionada</h3>
+    <p>{{ solicitudSeleccionada.titulo }}</p>
+  </div>
+</section>

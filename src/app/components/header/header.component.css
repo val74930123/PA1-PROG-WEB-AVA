@@ -1,0 +1,13 @@
+.encabezado {
+  padding: 24px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.encabezado h1 {
+  margin: 0 0 8px;
+}
+
+.encabezado p {
+  margin: 0;
+}
