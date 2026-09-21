@@ -9,11 +9,12 @@ export const describirSolicitud = (solicitud: Solicitud): string => {
     return `Solicitud #${id}: ${asunto} (${estado}) - ${nombres}`;
 };
 
-export const filtrarPorEstado = (solicitudes: Solicitud[], estado: EstadoSolicitud): Solicitud[] =>{
-    const resultado: Solicitud[] = [];
-    for (const s of solicitudes) {
-        if (s.estado === estado) {
-            resultado.push(s);
+export const filtrarPorEstado = (solicitudes: Solicitud[], estado: EstadoSolicitud): Solicitud[] => {
+  const resultado: Solicitud[] = [];
+  for (let i = 0; i < solicitudes.length; i++) {
+    const solicitud = solicitudes[i];
+    if (solicitud.estado === estado) {
+      resultado.push(solicitud);
     }
   }
   return resultado;

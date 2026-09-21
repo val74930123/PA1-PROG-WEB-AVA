@@ -1,5 +1,4 @@
-import type { Estudiante } from './estudiante.model';
-
+import { Estudiante } from './estudiante.model';
 /* CATALOGO*/ 
 export type TipoSolicitud = 
     | 'CONSTANCIA_MATRICULA'
@@ -32,5 +31,11 @@ export interface Solicitud {
 }
 
 /*DATOS  QUE LLEGA EL SUUARIO*/
-export type NuevaSolicitud = Omit<Solicitud, 'id' | 'estado' | 'fecha' | 'observacion'>;
+export interface NuevaSolicitud {
+    tipo: TipoSolicitud;
+    asunto: string;
+    descripcion: string;
+    prioridad: PrioridadSolicitud;
+    estudiante: Estudiante;
+}
 
