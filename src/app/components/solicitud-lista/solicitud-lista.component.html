@@ -1,0 +1,38 @@
+<section>
+  <h2>Solicitudes registradas</h2>
+
+  <p>Total de solicitudes: {{ solicitudes.length }}</p>
+
+  <div *ngIf="solicitudes.length > 0">
+    <app-solicitud-card
+      *ngFor="let solicitud of solicitudes"
+      [solicitud]="solicitud"
+      (verDetalle)="seleccionarSolicitud($event)">
+    </app-solicitud-card>
+  </div>
+
+  <p *ngIf="solicitudes.length === 0">
+    No existen solicitudes registradas.
+  </p>
+
+  <div *ngIf="solicitudSeleccionada">
+    <h3>Solicitud seleccionada</h3>
+    <p>{{ solicitudSeleccionada.titulo }}</p>
+  </div>
+
+  <hr>
+<div style="background-color: #eef2f5; padding: 20px; border-radius: 8px; margin-top: 20px;">
+  <h3>Datos de Alumnos</h3>
+  <p>Se muestran los datos de los alumnos obtenidos de la API REST:</p>
+
+  <ul style="list-style-type: none; padding: 0;">
+
+    // Aquí iteramos sobre los datos obtenidos de la API REST y los mostramos en una lista
+    <li *ngFor="let usuario of datosExternos" style="background: white; margin-bottom: 10px; padding: 10px; border-left: 4px solid #0056b3;">
+      <strong>Nombre:</strong> {{ usuario.name }} <br>
+      <strong>Email:</strong> {{ usuario.email }} <br>
+      <strong>Sitio Web:</strong> {{ usuario.website }}
+    </li>
+  </ul>
+</div>
+</section>

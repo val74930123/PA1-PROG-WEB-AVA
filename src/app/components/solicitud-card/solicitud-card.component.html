@@ -1,0 +1,26 @@
+<article class="solicitud-card">
+  <span>Solicitud #{{ solicitud.id }}</span>
+
+  <h3>{{ solicitud.titulo }}</h3>
+
+  <p>{{ solicitud.descripcion }}</p>
+
+  <p>
+    <strong>Estudiante:</strong>
+    {{ solicitud.estudiante }}
+  </p>
+
+  <p>
+    <strong>Estado:</strong>
+    {{ solicitud.estado }}
+  </p>
+
+  <p>
+    <strong>Fecha:</strong>
+    {{ solicitud.fecha }}
+  </p>
+
+  <button type="button" (click)="mostrarDetalle()">
+    Ver detalle
+  </button>
+</article>
