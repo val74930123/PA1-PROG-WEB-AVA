@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core'; // Importamos Component y OnInit para definir el componente.
+import { Component, OnInit } from '@angular/core';
 import { Solicitud } from 'src/app/models/solicitud';
-import { ApiService } from '../../core/services/api.service'; // Importamos el servicio ApiService para consumir la API REST
+import { ApiService } from '../../core/services/api.service';
+import { SolicitudService } from '../../services/solicitud.service';
 
 @Component({
   selector: 'app-solicitud-lista',
@@ -8,24 +9,7 @@ import { ApiService } from '../../core/services/api.service'; // Importamos el s
   styleUrls: ['./solicitud-lista.component.css']
 })
 export class SolicitudListaComponent implements OnInit {
-  solicitudes: Solicitud[] = [
-    {
-      id: 1,
-      titulo: 'Constancia de estudios',
-      descripcion: 'Solicitud de constancia académica.',
-      estudiante: 'Ana Torres',
-      estado: 'Pendiente',
-      fecha: '21/09/2026'
-    },
-    {
-      id: 2,
-      titulo: 'Reserva de laboratorio',
-      descripcion: 'Solicitud de reserva del laboratorio.',
-      estudiante: 'Luis Mendoza',
-      estado: 'En proceso',
-      fecha: '20/09/2026'
-    }
-  ];
+  solicitudes: Solicitud[] = [];
 
   solicitudSeleccionada?: Solicitud;
 
@@ -36,12 +20,15 @@ export class SolicitudListaComponent implements OnInit {
   // Variable para almacenar los datos obtenidos de la API REST
   datosExternos: any[] = [];
 
-  // Inyectamos el servicio ApiService en el constructor del componente
-  constructor(private apiService: ApiService) { }
+  constructor(
+    private apiService: ApiService,
+    private solicitudService: SolicitudService
+  ) {}
   
   // Llamamos al método para obtener los datos de prueba al inicializar el componente
   ngOnInit(): void {
-    
+    this.solicitudes = this.solicitudService.obtenerSolicitudes();
+
     this.apiService.obtenerDatosDePrueba().subscribe({
       next: (datos) => {
         this.datosExternos = datos;
