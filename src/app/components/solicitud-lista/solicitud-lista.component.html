@@ -3,7 +3,7 @@
 
   <p>Total de solicitudes: {{ solicitudes.length }}</p>
 
-  <div *ngIf="solicitudes.length > 0">
+  <div class="solicitudes-container" *ngIf="solicitudes.length > 0">
     <app-solicitud-card
       *ngFor="let solicitud of solicitudes"
       [solicitud]="solicitud"
