@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Solicitud } from 'src/app/models/solicitud';
+import { SolicitudService } from 'src/app/services/solicitud.service';
 
 @Component({
   selector: 'app-solicitud-lista',
@@ -7,26 +8,13 @@ import { Solicitud } from 'src/app/models/solicitud';
   styleUrls: ['./solicitud-lista.component.css']
 })
 export class SolicitudListaComponent {
-  solicitudes: Solicitud[] = [
-    {
-      id: 1,
-      titulo: 'Constancia de estudios',
-      descripcion: 'Solicitud de constancia académica.',
-      estudiante: 'Ana Torres',
-      estado: 'Pendiente',
-      fecha: '21/09/2026'
-    },
-    {
-      id: 2,
-      titulo: 'Reserva de laboratorio',
-      descripcion: 'Solicitud de reserva del laboratorio.',
-      estudiante: 'Luis Mendoza',
-      estado: 'En proceso',
-      fecha: '20/09/2026'
-    }
-  ];
 
+  solicitudes: Solicitud[] = [];
   solicitudSeleccionada?: Solicitud;
+
+  constructor(private solicitudService: SolicitudService) {
+    this.solicitudes = this.solicitudService.obtenerSolicitudes();
+  }
 
   seleccionarSolicitud(solicitud: Solicitud): void {
     this.solicitudSeleccionada = solicitud;
