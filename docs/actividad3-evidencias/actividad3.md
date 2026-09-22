@@ -35,8 +35,9 @@ Abrir `http://localhost:4200` (redirige a `/solicitudes`).
   y presionar "Registrar solicitud". Debe aparecer el mensaje de confirmación y, al ir a "Solicitudes", la nueva solicitud debe aparecer en el listado.
 
 4. Evidencias
-
-> Nota: agregar aquí las capturas tomadas al ejecutar `npm start` localmente, guardándolas en esta misma carpeta con estos nombres:
+![alt text](image-2.png)
+![alt text](image-1.png)
+![alt text](image-3.png)
 
 ![Vista de solicitudes](evidencia-1-solicitudes.png)
 ![Formulario vacío con validaciones](evidencia-2-formulario-invalido.png)
