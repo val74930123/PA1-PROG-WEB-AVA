@@ -1,27 +1,78 @@
-# Pa1ProgWebAva
+# README — Evaluación
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+> **Curso:** PROGRAMACION WEB - II  
+> **Código:** 30690  
+> **Evaluación:** [PA1]  
+> **Equipo:** [NOMBRE O NÚMERO]  
 
-## Development server
+## 1. Integrantes
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+| Integrante | Rol | Aporte principal |
+|---|---|---|
+| [Nombre 1] | [Rol] | [Aporte] |
+| [Nombre 2] | [Rol] | [Aporte] |
+| [Nombre 3] | [Rol] | [Aporte] |
+| [Nombre 4] | [Rol] | [Aporte] |
+| [Nombre 5] | [Rol] | [Aporte] |
 
-## Code scaffolding
+## 2. Descripción y objetivo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Problema:**  
+La consulta de solicitudes académicas necesita una interfaz organizada que permita ver las solicitudes registradas y consultar sus detalles, manteniendo separadas la presentación de la información y la gestión de los datos.
 
-## Build
+**Objetivo:**  
+Desarrollar una aplicación web con Angular 16 y TypeScript que sirva como base para gestionar solicitudes académicas y aplicar los contenidos de programación web evaluados en la PA1.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Solución desarrollada:**  
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 3. Cómo ejecutar o revisar
 
-## Running end-to-end tests
+```bash
+npm install
+npm start
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Pasos de revisión:**
+1. Clonar el repositorio y abrir una terminal en la carpeta del proyecto.
+2. Ejecutar `npm install` para instalar las dependencias.
+3. Ejecutar `npm start` y esperar el mensaje de compilación correcta del servidor Angular.
+4. Abrir `http://localhost:4200` en el navegador.
+5. Revisar la lista de solicitudes, pulsar **Ver detalle** y comprobar que cambia la solicitud seleccionada. Si hay conexión a Internet, también se mostrarán los datos de prueba consultados desde JSONPlaceholder.
+6. Para comprobar la compilación de producción, detener el servidor y ejecutar `npm run build`.
 
-## Further help
+> No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 4. Evidencias
+
+Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funcionamiento.
+
+- [Evidencia 1]
+- [Evidencia 2]
+- [Evidencia 3]
+
+## 5. Matriz de participación
+
+| Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
+|---|---|---|---|---|---|
+| [Nombre 1] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| [Nombre 3] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| [Nombre 5] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+
+## 6. Video de exposición
+
+**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE]
+
+Todos los integrantes deben participar en la exposición con sus cámaras prendidas y explicar el procedimiento, la solución desarrollada y las decisiones tomadas.
+
+## 7. Conclusiones
+
+- [Conclusión 1]
+- [Conclusión 2]
+- [Conclusión 3]
+
+---
+
+**Última actualización:** [DD/MM/AAAA]
