@@ -1,3 +1,5 @@
+import { ReactiveFormsModule } from '@angular/forms';
+import { SolicitudFormComponent } from './components/solicitud-form/solicitud-form.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';// Importamos el HttpClientModule
@@ -13,12 +15,14 @@ import { SolicitudListaComponent } from './components/solicitud-lista/solicitud-
     AppComponent,
     HeaderComponent,
     SolicitudCardComponent,
-    SolicitudListaComponent
+    SolicitudListaComponent,
+    SolicitudFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule // Luego el HttpClientModule lo agregamos con los demás imports
+    HttpClientModule, // Luego el HttpClientModule lo agregamos con los demás imports
+    ReactiveFormsModule // Necesario para el formulario reactivo de Actividad 3
   ],
   providers: [],
   bootstrap: [AppComponent]

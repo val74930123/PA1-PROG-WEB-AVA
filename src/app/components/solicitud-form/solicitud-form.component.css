@@ -1,0 +1,54 @@
+.formulario-solicitud {
+  max-width: 480px;
+  margin: 24px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.campo {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f3c5b;
+}
+
+.campo input,
+.campo textarea {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #125ca1;
+}
+
+.confirmacion {
+  margin-top: 16px;
+  color: #1a7f37;
+  font-weight: 500;
+}

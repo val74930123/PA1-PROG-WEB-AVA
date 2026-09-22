@@ -28,4 +28,18 @@ export class SolicitudService {
   obtenerSolicitudes(): Solicitud[] {
     return this.solicitudes;
   }
+
+  agregarSolicitud(datos: { titulo: string; estudiante: string; descripcion: string }): Solicitud {
+    const nuevaSolicitud: Solicitud = {
+      id: this.solicitudes.length + 1,
+      titulo: datos.titulo,
+      descripcion: datos.descripcion,
+      estudiante: datos.estudiante,
+      estado: 'Pendiente',
+      fecha: new Date().toLocaleDateString('es-PE')
+    };
+
+    this.solicitudes = [...this.solicitudes, nuevaSolicitud];
+    return nuevaSolicitud;
+  }
 }

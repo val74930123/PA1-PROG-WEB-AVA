@@ -13,7 +13,7 @@
 | [Nombre 2] | [Rol] | [Aporte] |
 | [Nombre 3] | [Rol] | [Aporte] |
 | [Nombre 4] | [Rol] | [Aporte] |
-| [Nombre 5] | [Rol] | [Aporte] |
+| Ian Palmieri | Desarrollador Actividad 3 | Formulario reactivo de solicitudes (ReactiveFormsModule, validaciones) y navegación con Angular Router (`/solicitudes`, `/nueva-solicitud`) |
 
 ## 2. Descripción y objetivo
 
@@ -47,9 +47,10 @@ npm start
 
 Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funcionamiento.
 
-- [Evidencia 1]
-- [Evidencia 2]
-- [Evidencia 3]
+- Actividad 1 (tipado y ES6+): `docs/tipado.md`
+- Actividad 3 (formulario reactivo y Router): `docs/actividad3-evidencias/actividad3.md`
+- Actividad 4 (consumo de API REST): `docs/actividad4-evidencias/tipado.md`
+- [Evidencia de Actividad 2]
 
 ## 5. Matriz de participación
 
@@ -59,7 +60,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 | [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 3] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
-| [Nombre 5] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| Ian Palmieri | Alta | Sí | Sí | [Sí/No] | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
 
 ## 6. Video de exposición
 

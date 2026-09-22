@@ -1,0 +1,41 @@
+<section class="formulario-solicitud">
+  <h2>Nueva solicitud académica</h2>
+
+  <form [formGroup]="solicitudForm" (ngSubmit)="onSubmit()">
+
+    <div class="campo">
+      <label for="titulo">Título</label>
+      <input id="titulo" type="text" formControlName="titulo" />
+      <div class="error" *ngIf="titulo?.invalid && titulo?.touched">
+        <span *ngIf="titulo?.errors?.['required']">El título es obligatorio.</span>
+        <span *ngIf="titulo?.errors?.['minlength']">El título debe tener al menos 5 caracteres.</span>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="estudiante">Estudiante</label>
+      <input id="estudiante" type="text" formControlName="estudiante" />
+      <div class="error" *ngIf="estudiante?.invalid && estudiante?.touched">
+        <span *ngIf="estudiante?.errors?.['required']">El nombre del estudiante es obligatorio.</span>
+        <span *ngIf="estudiante?.errors?.['minlength']">El nombre debe tener al menos 3 caracteres.</span>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="descripcion">Descripción</label>
+      <textarea id="descripcion" formControlName="descripcion" rows="4"></textarea>
+      <div class="error" *ngIf="descripcion?.invalid && descripcion?.touched">
+        <span *ngIf="descripcion?.errors?.['required']">La descripción es obligatoria.</span>
+        <span *ngIf="descripcion?.errors?.['minlength']">La descripción debe tener al menos 10 caracteres.</span>
+      </div>
+    </div>
+
+    <button type="submit">Registrar solicitud</button>
+
+    <p class="confirmacion" *ngIf="solicitudRegistrada">
+      ✅ La solicitud se registró correctamente.
+      <a routerLink="/solicitudes">Ver listado de solicitudes</a>
+    </p>
+
+  </form>
+</section>
