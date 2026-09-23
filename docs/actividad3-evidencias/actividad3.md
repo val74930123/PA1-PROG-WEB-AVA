@@ -1,6 +1,6 @@
 Actividad 3: Formulario reactivo, validaciones y navegación
 
-Integrante responsable: Ian Palmieri
+Integrante responsable: Ian Palmieri Gonzaga
 
 1. Qué implementé
 
