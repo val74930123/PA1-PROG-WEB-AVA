@@ -10,7 +10,7 @@
 | Integrante | Rol | Aporte principal |
 |---|---|---|
 | Valeria Ravina Pérez | Desarrollador Actividad 1 | Modelos tipados, funciones con ES6+, datos con async/await, demo y documentación |
-| [Nombre 2] | [Rol] | [Aporte] |
+| Alejandro Daniel Quispe Nieto | Desarrollador actividad 2 parte 1 | Crear los componetes bindig y directivas Angular para listar la información |
 | Rodrigo Paredes | Desarrollador Actividad 4 | Lista de los usuarios mediante un APIs REST |
 | [Nombre 4] | [Rol] | [Aporte] |
 | Ian Palmieri | Desarrollador Actividad 3 | Formulario reactivo de solicitudes (ReactiveFormsModule, validaciones) y navegación con Angular Router (`/solicitudes`, `/nueva-solicitud`) |
@@ -50,14 +50,14 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 - Actividad 1 (tipado y ES6+): `docs/tipado.md`
 - Actividad 3 (formulario reactivo y Router): `docs/actividad3-evidencias/actividad3.md`
 - Actividad 4 (consumo de API REST): `docs/actividad4-evidencias/tipado.md`
-- [Evidencia de Actividad 2]
+- Actividad 2 (Arquitectura de componentes Angular): `docs/actividad2-evidencias/tipado.md`
 
 ## 5. Matriz de participación
 
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
 |---|---|---|---|---|---|
 | Valeria Ravina Pérez | Alta | Alta | Alta | Sí | Commits de la rama `feature/actividad-1-tipado` y Pull Request #1 |
-| [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| [Alejandro Daniel Quispe Nieto] | [Alta] | [Alta] | [Alta] | [Sí] | [`docs/actividad2-evidencias/tipado.md`] |
 | Rodrigo Paredes | Alta | [Alta | [Alta | Sí | Commits `Actividad 4` ver `docs/actividad4-evidencias/tipado.md` |
 | [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | Ian Palmieri | Alta | Sí | Sí | Sí | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
