@@ -2,9 +2,12 @@
 
 > **Curso:** PROGRAMACION WEB - II  
 > **Código:** 30690  
-> **Evaluación:** [PA1]  
-> **Equipo:** 4
+> **Evaluación:** [PA1]
+
+> **Equipo:** [NOMBRE O NÚMERO]
+
 ## 1. Integrantes
+
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
@@ -32,13 +35,13 @@ npm start
 ```
 
 **Pasos de revisión:**
+
 1. Clonar el repositorio y abrir una terminal en la carpeta del proyecto.
 2. Ejecutar `npm install` para instalar las dependencias.
 3. Ejecutar `npm start` y esperar el mensaje de compilación correcta del servidor Angular.
 4. Abrir `http://localhost:4200` en el navegador.
 5. Revisar la lista de solicitudes, pulsar **Ver detalle** y comprobar que cambia la solicitud seleccionada. Si hay conexión a Internet, también se mostrarán los datos de prueba consultados desde JSONPlaceholder.
 6. Para comprobar la compilación de producción, detener el servidor y ejecutar `npm run build`.
-
 
 ## 4. Evidencias
 
@@ -51,13 +54,17 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 ## 5. Matriz de participación
 
+
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
 |---|---|---|---|---|---|
 | Valeria Ravina Pérez | Alta | Alta | Alta | [Sí] | [Commits de la rama `feature/actividad-1-tipado` y Pull Request #1] |
-| [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
-| [Nombre 3] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
-| [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+
 | Ian Palmieri | Alta | Sí | Sí | [Sí] | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
+=======
+| Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
+
+
+> > > > > > > 96a400a (readname)
 
 ## 6. Video de exposición
 
