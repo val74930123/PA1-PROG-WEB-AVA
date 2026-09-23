@@ -12,7 +12,7 @@
 | Valeria Ravina Pérez | Desarrollador Actividad 1 | Modelos tipados, funciones con ES6+, datos con async/await, demo y documentación |
 | Alejandro Daniel Quispe Nieto | Desarrollador actividad 2 parte 1 | Crear los componetes bindig y directivas Angular para listar la información |
 | Rodrigo Paredes | Desarrollador Actividad 4 | Lista de los usuarios mediante un APIs REST |
-| [Nombre 4] | [Rol] | [Aporte] |
+| Alejandro Josue Chero | Desarrollador actividad 2 parte 2 | SolicitudService y inyección de dependencias, explicando cómo se gestionan y proporcionan los datos a los componentes. |
 | Ian Palmieri | Desarrollador Actividad 3 | Formulario reactivo de solicitudes (ReactiveFormsModule, validaciones) y navegación con Angular Router (`/solicitudes`, `/nueva-solicitud`) |
 
 ## 2. Descripción y objetivo
@@ -59,7 +59,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 | Valeria Ravina Pérez | Alta | Alta | Alta | Sí | Commits de la rama `feature/actividad-1-tipado` y Pull Request #1 |
 | [Alejandro Daniel Quispe Nieto] | [Alta] | [Alta] | [Alta] | [Sí] | [`docs/actividad2-evidencias/tipado.md`] |
 | Rodrigo Paredes | Alta | [Alta | [Alta | Sí | Commits `Actividad 4` ver `docs/actividad4-evidencias/tipado.md` |
-| [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| Alejandro Josue Chero | Alta | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | Ian Palmieri | Alta | Sí | Sí | Sí | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
 
 ## 6. Video de exposición
