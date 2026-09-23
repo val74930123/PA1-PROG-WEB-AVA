@@ -29,9 +29,5 @@ Después, la plantilla de la lista usa `*ngFor` para generar una tarjeta por cad
 
 La lista envía los datos de cada solicitud a su tarjeta. Al pulsar Ver detalle, la tarjeta avisa cuál fue seleccionada y la lista muestra esa selección. Así, la tarjeta presenta la información individual y la lista controla la vista general.
 
-## ¿Qué aporta el tipado?
 
-El tipado funciona como una guía para indicar qué información debe tener una solicitud. Ayuda a detectar si falta un dato o si se intenta usar un estado no permitido. También mantiene la misma estructura cuando los datos pasan del servicio a la lista y de la lista a cada tarjeta.
-
-En resumen, se aplicaron componentes, módulo, data binding, directivas y un servicio inyectado. Se eligió esta organización para separar la presentación de los datos y facilitar la comprensión y el mantenimiento del proyecto.
 
