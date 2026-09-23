@@ -9,7 +9,7 @@
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| [Nombre 1] | [Rol] | [Aporte] |
+| Valeria Ravina Pérez | Desarrollador Actividad 1 | Modelos tipados, funciones con ES6+, datos con async/await, demo y documentación |
 | [Nombre 2] | [Rol] | [Aporte] |
 | [Nombre 3] | [Rol] | [Aporte] |
 | [Nombre 4] | [Rol] | [Aporte] |
@@ -24,7 +24,7 @@ La consulta de solicitudes académicas necesita una interfaz organizada que perm
 Desarrollar una aplicación web con Angular 16 y TypeScript que sirva como base para gestionar solicitudes académicas y aplicar los contenidos de programación web evaluados en la PA1.
 
 **Solución desarrollada:**  
-
+Se construyó una aplicación Angular con TypeScript, organizada en un módulo base con modelos tipados (Actividad 1), componentes con formularios reactivos y rutas (Actividades 2 y 3), y consumo de una API REST (Actividad 4).
 
 ## 3. Cómo ejecutar o revisar
 
@@ -70,10 +70,10 @@ Todos los integrantes deben participar en la exposición con sus cámaras prendi
 
 ## 7. Conclusiones
 
-- [Conclusión 1]
-- [Conclusión 2]
-- [Conclusión 3]
+- Definir los tipos y modelos antes de construir los componentes ayudó a que el resto del equipo trabajara con datos consistentes y evitó errores de tipado en tiempo de desarrollo.
+- Separar la lógica en módulos (modelos, componentes, servicios) facilitó que cada integrante avanzara en su actividad sin depender directamente del código de los demás.
+- El uso de TypeScript con tipado estricto permitió detectar errores antes de ejecutar la aplicación, lo que redujo el tiempo dedicado a depurar.
 
 ---
 
-**Última actualización:** [DD/MM/AAAA]
+**Última actualización:** [22/09/2026]
