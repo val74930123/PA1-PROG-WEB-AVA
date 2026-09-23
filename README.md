@@ -8,7 +8,7 @@
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| [Nombre 2] | [Rol] | [Aporte] |
+| Valeria Ravina Pérez | Desarrollador Actividad 1 | Modelos tipados, funciones con ES6+, datos con async/await, demo y documentación |
 | [Nombre 3] | [Rol] | [Aporte] |
 | [Nombre 4] | [Rol] | [Aporte] |
 | Ian Palmieri | Desarrollador Actividad 3 | Formulario reactivo de solicitudes (ReactiveFormsModule, validaciones) y navegación con Angular Router (`/solicitudes`, `/nueva-solicitud`) |
@@ -22,7 +22,7 @@ La consulta de solicitudes académicas necesita una interfaz organizada que perm
 Desarrollar una aplicación web con Angular 16 y TypeScript que sirva como base para gestionar solicitudes académicas y aplicar los contenidos de programación web evaluados en la PA1.
 
 **Solución desarrollada:**  
-
+Se construyó una aplicación Angular con TypeScript, organizada en un módulo base con modelos tipados (Actividad 1), componentes con formularios reactivos y rutas (Actividades 2 y 3), y consumo de una API REST (Actividad 4).
 
 ## 3. Cómo ejecutar o revisar
 
@@ -53,7 +53,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
 |---|---|---|---|---|---|
-| [Nombre 1] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| Valeria Ravina Pérez | Alta | Alta | Alta | [Sí] | [Commits de la rama `feature/actividad-1-tipado` y Pull Request #1] |
 | [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 3] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
@@ -66,9 +66,9 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 Todos los integrantes deben participar en la exposición con sus cámaras prendidas y explicar el procedimiento, la solución desarrollada y las decisiones tomadas.
 
 ## 7. Conclusiones
+- Definir los tipos y modelos antes de construir los componentes ayudó a que el resto del equipo trabajara con datos consistentes y evitó errores de tipado en tiempo de desarrollo.
+- Separar la lógica en módulos (modelos, componentes, servicios) facilitó que cada integrante avanzara en su actividad sin depender directamente del código de los demás.
+- El uso de TypeScript con tipado estricto permitió detectar errores antes de ejecutar la aplicación, lo que redujo el tiempo dedicado a depurar.
 
 
-
----
-
-**Última actualización:** [DD/MM/AAAA]
+**Última actualización:** [22/09/2026]
