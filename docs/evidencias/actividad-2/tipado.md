@@ -1,25 +1,37 @@
-# Tipado de las solicitudes - Actividad 2
+# Actividad 2: componentes, datos y tipado
 
-## ¿Qué significa tipar una solicitud?
+## ¿Qué se implementó?
 
-En esta aplicación, una solicitud representa un pedido que realiza un estudiante, por ejemplo, una constancia de estudios o una reserva de laboratorio. Para que la información se muestre siempre de forma ordenada, todas las solicitudes siguen la misma estructura.
+La Actividad 2 organiza la interfaz de solicitudes académicas en varias partes para que cada una tenga una función clara. La aplicación muestra un encabezado, una lista de solicitudes y una tarjeta individual para cada solicitud. También permite seleccionar una solicitud y mostrar su título como detalle.
 
-Cada solicitud incluye:
+## Componentes y responsabilidades
 
-- Un número que permite distinguirla de las demás.
-- Un título y una descripción para explicar qué se está solicitando.
-- El nombre del estudiante que la presenta.
-- Un estado para indicar en qué etapa se encuentra: Pendiente, En proceso o Atendida.
-- La fecha en que se registró.
+- **HeaderComponent:** muestra el título y el subtítulo de la aplicación.
+- **SolicitudListaComponent:** obtiene las solicitudes, organiza su presentación y guarda cuál fue seleccionada.
+- **SolicitudCardComponent:** muestra los datos de una solicitud y contiene el botón Ver detalle.
+- **AppModule:** registra los componentes para que Angular pueda utilizarlos dentro de la aplicación.
 
-## ¿Cómo se usa en la aplicación?
+Esta separación evita concentrar toda la interfaz y su comportamiento en un único componente. Cada parte se puede entender y mantener según la tarea que realiza.
 
-El servicio mantiene las solicitudes de ejemplo y se las entrega a la lista cuando esta se inicia. La lista utiliza esa información para mostrar una tarjeta por cada solicitud. Todas las tarjetas reciben los mismos tipos de datos, aunque cada una presenta una solicitud diferente.
+## Estructura de los datos
 
-Cuando se pulsa ver detalle , la tarjeta comunica cuál solicitud se eligió y la lista muestra su título en la sección de detalle. De esta manera, la información conserva la misma estructura desde que sale del servicio hasta que aparece en la pantalla.
+Todas las solicitudes siguen una misma estructura. Cada una tiene un identificador, título, descripción, nombre del estudiante, estado y fecha. Los estados permitidos son Pendiente, En proceso y Atendida.
 
-## ¿Por qué es útil?
+Esta estructura común se define en el modelo `Solicitud`. El servicio y los componentes trabajan con solicitudes que siguen ese modelo, por lo que manejan los mismos campos de forma coherente.
 
-El tipado funciona como una guía compartida para las partes de la aplicación: indica qué datos debe tener una solicitud y ayuda a detectar errores, como olvidar un campo o escribir un estado distinto de los permitidos. También facilita mantener el proyecto, porque si se cambia la estructura de una solicitud, se puede identificar qué partes deben actualizarse.
+## Cómo se muestran las solicitudes
 
-En resumen, el modelo define la información de cada solicitud, el servicio la proporciona y los componentes la muestran e intercambian. Cada parte tiene una responsabilidad clara, pero todas trabajan con la misma estructura.
+El `SolicitudService` mantiene las solicitudes de ejemplo y se las entrega al componente de lista. También cuenta con una operación para agregar una solicitud: recibe el título, el nombre del estudiante y la descripción; luego asigna un identificador, establece el estado inicial como Pendiente, registra la fecha y añade el nuevo elemento a la lista.
+
+Para la consulta, `SolicitudListaComponent` recibe `SolicitudService` al crearse y obtiene las solicitudes cuando se inicia.
+
+Después, la plantilla de la lista usa `*ngFor` para generar una tarjeta por cada solicitud. Usa `*ngIf` para mostrar la lista cuando hay datos, o un mensaje cuando está vacía. También presenta el total de solicitudes y el título del detalle seleccionado.
+
+La lista envía los datos de cada solicitud a su tarjeta. Al pulsar Ver detalle, la tarjeta avisa cuál fue seleccionada y la lista muestra esa selección. Así, la tarjeta presenta la información individual y la lista controla la vista general.
+
+## ¿Qué aporta el tipado?
+
+El tipado funciona como una guía para indicar qué información debe tener una solicitud. Ayuda a detectar si falta un dato o si se intenta usar un estado no permitido. También mantiene la misma estructura cuando los datos pasan del servicio a la lista y de la lista a cada tarjeta.
+
+En resumen, se aplicaron componentes, módulo, data binding, directivas y un servicio inyectado. Se eligió esta organización para separar la presentación de los datos y facilitar la comprensión y el mantenimiento del proyecto.
+
