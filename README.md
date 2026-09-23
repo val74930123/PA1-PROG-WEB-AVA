@@ -59,7 +59,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 | Valeria Ravina Pérez | Alta | Alta | Alta | Sí | Commits de la rama `feature/actividad-1-tipado` y Pull Request #1 |
 | [Alejandro Daniel Quispe Nieto] | [Alta] | [Alta] | [Alta] | [Sí] | [`docs/actividad2-evidencias/tipado.md`] |
 | Rodrigo Paredes | Alta | [Alta | [Alta | Sí | Commits `Actividad 4` ver `docs/actividad4-evidencias/tipado.md` |
-| Alejandro Josue Chero | Alta | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
+| Alejandro Josue Chero | Alta | Alta | Alta | Sí | `docs/evidencias/actividad-2/Ver detalles-Reserva.png` |
 | Ian Palmieri | Alta | Sí | Sí | Sí | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
 
 ## 6. Video de exposición
