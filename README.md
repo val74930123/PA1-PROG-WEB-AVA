@@ -73,6 +73,8 @@ Todos los integrantes deben participar en la exposición con sus cámaras prendi
 - Definir los tipos y modelos antes de construir los componentes ayudó a que el resto del equipo trabajara con datos consistentes y evitó errores de tipado en tiempo de desarrollo.
 - Separar la lógica en módulos (modelos, componentes, servicios) facilitó que cada integrante avanzara en su actividad sin depender directamente del código de los demás.
 - El uso de TypeScript con tipado estricto permitió detectar errores antes de ejecutar la aplicación, lo que redujo el tiempo dedicado a depurar.
+- El uso de un servicio para gestionar las solicitudes permitió separar los datos de la parte visual de la aplicación. Además, la inyección de dependencias facilitó que el componente pudiera utilizar el servicio de forma organizada, haciendo que el código sea más fácil de mantener y reutilizar.
+
 
 ---
 
