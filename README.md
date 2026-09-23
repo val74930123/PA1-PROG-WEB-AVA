@@ -3,13 +3,11 @@
 > **Curso:** PROGRAMACION WEB - II  
 > **Código:** 30690  
 > **Evaluación:** [PA1]  
-> **Equipo:** [NOMBRE O NÚMERO]  
-
+> **Equipo:** 4
 ## 1. Integrantes
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| [Nombre 1] | [Rol] | [Aporte] |
 | [Nombre 2] | [Rol] | [Aporte] |
 | [Nombre 3] | [Rol] | [Aporte] |
 | [Nombre 4] | [Rol] | [Aporte] |
@@ -41,7 +39,6 @@ npm start
 5. Revisar la lista de solicitudes, pulsar **Ver detalle** y comprobar que cambia la solicitud seleccionada. Si hay conexión a Internet, también se mostrarán los datos de prueba consultados desde JSONPlaceholder.
 6. Para comprobar la compilación de producción, detener el servidor y ejecutar `npm run build`.
 
-> No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
 ## 4. Evidencias
 
@@ -60,19 +57,17 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 | [Nombre 2] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 3] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
 | [Nombre 4] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Alta/Media/Baja] | [Sí/No] | [Commits, avances, etc.] |
-| Ian Palmieri | Alta | Sí | Sí | [Sí/No] | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
+| Ian Palmieri | Alta | Sí | Sí | [Sí] | Actividad 3: `SolicitudFormComponent`, rutas `/solicitudes` y `/nueva-solicitud`, ver `docs/actividad3-evidencias/actividad3.md` |
 
 ## 6. Video de exposición
 
-**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE]
+**Video público de YouTube:** ->
 
 Todos los integrantes deben participar en la exposición con sus cámaras prendidas y explicar el procedimiento, la solución desarrollada y las decisiones tomadas.
 
 ## 7. Conclusiones
 
-- [Conclusión 1]
-- [Conclusión 2]
-- [Conclusión 3]
+
 
 ---
 
